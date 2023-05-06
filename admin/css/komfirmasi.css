@@ -122,3 +122,8 @@ a {
   font-weight: bold;
   font-size: 17px;
 }
+
+.btn {
+  background: #f3e5e1;
+  border-radius: 20px;
+}
