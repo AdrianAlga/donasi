@@ -90,10 +90,10 @@
                       <td>Sepeda</td>
                       <td>Selesai</td>
                       <td class="text-center">
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                           <span class="badge text-bg-primary px-3">Edit</span>
                         </a>
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           <span class="badge text-bg-danger">Hapus</span>
                         </a>
                       </td>
@@ -103,10 +103,10 @@
                       <td>Sepatu</td>
                       <td>Berlangsung</td>
                       <td class="text-center">
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                           <span class="badge text-bg-primary px-3">Edit</span>
                         </a>
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           <span class="badge text-bg-danger">Hapus</span>
                         </a>
                       </td>
@@ -136,6 +136,93 @@
                 </nav>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-12 text-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-md-12 py-5">Apakah anda yakin ingin menghapusnya?</div>
+                <div class="col-md-12 text-end">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                  <button type="button" class="btn btn-primary px-4">Ya</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal2 -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <form action="">
+              <div class="modal-body py-5 modalColor">
+                <p class="detail"><img src="/images/icon2.png" alt="img" height="23px" /> Edit Produk</p>
+                <div class="row">
+                  <div class="col-md-12">
+                    <form action="">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="row justify-content-center">
+                            <div class="col-6">
+                              <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Nama Barang" required />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row justify-content-center">
+                            <div class="col-6">
+                              <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Deskripsil barang" required />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row justify-content-center">
+                            <div class="col-6">
+                              <div class="mb-3">
+                                <select class="form-select" aria-label="Default select example">
+                                  <option selected>Kualitas Barang</option>
+                                  <option value="1">Kondisi Barang Baik</option>
+                                  <option value="2">Kondisi Barang Kurang Baik</option>
+                                  <option value="3">Kondisi Barang Buruk</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row justify-content-center">
+                            <div class="col-6">
+                              <div class="mb-3">
+                                <input class="form-control" type="file" id="formFile" required />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row justify-content-center">
+                            <div class="col-6">
+                              <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukkan Alamat" required></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row pt-3">
+                            <div class="col-md-12 text-center">
+                              <button type="submit" class="btn btn-color">Simpan</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>

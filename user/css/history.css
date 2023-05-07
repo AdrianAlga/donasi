@@ -159,3 +159,14 @@ a {
 
   color: #000000;
 }
+
+/* modal */
+.modal-body {
+  background: rgba(227, 206, 200, 1);
+  border-radius: 6px;
+}
+  
+/* Button Color */
+.btn-color {
+  background-color: rgb(181, 157, 150);
+}

@@ -161,15 +161,12 @@ a {
 }
 
 /* modal */
-.modal-header {
-  background: rgba(227, 206, 200, 1);
-  /* border-radius: 6px; */
-}
 .modal-body {
   background: rgba(227, 206, 200, 1);
-  /* border-radius: 6px; */
+  border-radius: 6px;
 }
-.modal-footer {
-  background: rgba(227, 206, 200, 1);
-  /* border-radius: 6px; */
+
+/* Button Color */
+.btn-color {
+  background-color: rgb(181, 157, 150);
 }
