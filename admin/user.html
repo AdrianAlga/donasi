@@ -92,10 +92,10 @@
                       <td>Irham29</td>
                       <td>User</td>
                       <td class="text-center">
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                           <span class="badge text-bg-primary px-3">Edit</span>
                         </a>
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           <span class="badge text-bg-danger">Hapus</span>
                         </a>
                       </td>
@@ -106,10 +106,10 @@
                       <td>Suuni123</td>
                       <td>Admin</td>
                       <td class="text-center">
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                           <span class="badge text-bg-primary px-3">Edit</span>
                         </a>
-                        <a href="">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                           <span class="badge text-bg-danger">Hapus</span>
                         </a>
                       </td>
@@ -139,6 +139,51 @@
                 </nav>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-12 text-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-md-12 py-5">Apakah anda yakin ingin menghapusnya?</div>
+                <div class="col-md-12 text-end">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tidak</button>
+                  <button type="button" class="btn btn-primary px-4">Ya</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal2 -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <form action="">
+              <div class="modal-body py-5 modalColor">
+                <p class="detail"><img src="/images/icon7.png" alt="img" height="23px" /> Pilih Level</p>
+                <div class="row">
+                  <select class="form-select" aria-label="Default select example">
+                    <!-- <option selected>Open this select menu</option> -->
+                    <option value="1">User</option>
+                    <option value="2">Admin</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-color">Simpan</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
